@@ -1,5 +1,4 @@
-# xor-puf
-## XOR - Physically unclonable function
+# XOR - Physically unclonable function
 An Arbiter-based XOR Physically Unclonable Function (XOR PUF) is a variant of the Arbiter PUF, designed to mitigate the vulnerability of the Arbiter PUF to machine learning attacks³. 
 
 The XOR Arbiter PUF consists of multiple (k) Arbiter PUFs, all of which receive the same input³. The response of the XOR Arbiter PUF is defined as the parity (XOR) of the individual responses of these k Arbiter PUFs³. This means that the output of the XOR Arbiter PUF is the result of an XOR operation performed on the outputs of the individual Arbiter PUFs³.
